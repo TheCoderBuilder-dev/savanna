@@ -1,0 +1,243 @@
+/* ==================== Section Styles ==================== */
+.section-label {
+    display: block;
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+/* ==================== About Section ==================== */
+.about-section {
+    padding: 10rem 3rem;
+    background: var(--color-primary);
+}
+
+.about-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.about-content h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.about-content p {
+    margin-bottom: 1.5rem;
+    color: rgba(245, 243, 239, 0.8);
+}
+
+.about-stats {
+    display: flex;
+    gap: 4rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(201, 169, 98, 0.3);
+}
+
+.stat-number {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    color: var(--color-secondary);
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* ==================== Chef Section ==================== */
+.chef-section {
+    padding: 8rem 3rem;
+    background: var(--color-light);
+    color: var(--color-primary);
+}
+
+.chef-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.chef-content h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.chef-content p {
+    color: rgba(26, 26, 26, 0.7);
+    margin-bottom: 2rem;
+}
+
+.chef-content blockquote {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-style: italic;
+    padding-left: 2rem;
+    border-left: 2px solid var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.chef-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* ==================== Menu Section ==================== */
+.menu-section {
+    padding: 10rem 3rem;
+    background: var(--color-primary);
+}
+
+.menu-header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 5rem;
+}
+
+.menu-header h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.menu-header p {
+    color: rgba(245, 243, 239, 0.7);
+}
+
+.menu-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid rgba(201, 169, 98, 0.2);
+    align-items: baseline;
+}
+
+.menu-course {
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    color: var(--color-secondary);
+    text-transform: uppercase;
+}
+
+.menu-details h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu-details p {
+    font-size: 0.9rem;
+    color: rgba(245, 243, 239, 0.6);
+}
+
+.menu-footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid rgba(201, 169, 98, 0.2);
+}
+
+.menu-footer p {
+    margin-bottom: 0.5rem;
+    color: rgba(245, 243, 239, 0.7);
+}
+
+.btn-secondary {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: var(--color-secondary);
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: var(--color-white);
+}
+
+/* ==================== Experience Section ==================== */
+.experience-section {
+    padding: 10rem 3rem;
+    background: #0f0f0f;
+}
+
+.experience-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.experience-header h2 {
+    font-size: 3rem;
+}
+
+.experience-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.experience-card {
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+}
+
+.experience-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.experience-card:hover img {
+    transform: scale(1.1);
+}
+
+.experience-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background: linear-gradient(transparent, rgba(0,0,0,0.9));
+}
+
+.experience-overlay h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience-overlay p {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.7);
+}

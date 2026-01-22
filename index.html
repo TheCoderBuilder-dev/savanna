@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savanna | Fine Dining Nairobi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/gallery-reservations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">SAVANNA</a>
+            <ul class="nav-links">
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reservations" class="btn-reserve">Reserve</a></li>
+            </ul>
+            <button class="mobile-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-restaurant-interior-with-the-tables-702-large.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <p class="hero-tagline">An Extraordinary Culinary Journey</p>
+            <h1>Where African Heritage Meets Modern Gastronomy</h1>
+            <a href="#reservations" class="btn-primary">Reserve Your Table</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800" alt="Fine dining experience">
+            </div>
+            <div class="about-content">
+                <span class="section-label">Our Story</span>
+                <h2>A Celebration of Kenyan Excellence</h2>
+                <p>Nestled in the heart of Nairobi's Westlands district, Savanna represents the pinnacle of African fine dining. Our philosophy intertwines the rich culinary traditions of Kenya with contemporary techniques refined in the world's most celebrated kitchens.</p>
+                <p>Every dish tells a story of our land - from the fertile highlands of Central Kenya to the coastal spice routes of Mombasa. We source exclusively from local farmers, fishermen, and artisans who share our commitment to excellence.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">15</span>
+                        <span class="stat-label">Years of Excellence</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Culinary Awards</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="chef" class="chef-section">
+        <div class="chef-container">
+            <div class="chef-content">
+                <span class="section-label">The Visionary</span>
+                <h2>Chef Amani Oduya</h2>
+                <p>With over two decades of experience spanning Nairobi, Paris, and Tokyo, Chef Amani brings a unique perspective to African cuisine. His approach honors traditional Kenyan ingredients while embracing innovative techniques that surprise and delight.</p>
+                <blockquote>"Kenya's culinary heritage is extraordinary. My role is simply to present it in ways that honor its depth while inviting new appreciation."</blockquote>
+            </div>
+            <div class="chef-image">
+                <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=600" alt="Chef Amani Oduya">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="menu-header">
+            <span class="section-label">Tasting Menu</span>
+            <h2>The Savanna Experience</h2>
+            <p>A seven-course journey through Kenya's diverse culinary landscape</p>
+        </div>
+        <div class="menu-container" id="menu-container"></div>
+        <div class="menu-footer">
+            <p>Tasting Menu: KES 12,500 per person</p>
+            <p>Wine Pairing: KES 8,500 additional</p>
+            <a href="#reservations" class="btn-secondary">View Full Menu</a>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <div class="experience-header">
+            <span class="section-label">The Experience</span>
+            <h2>Beyond Dining</h2>
+        </div>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=500" alt="Private dining">
+                <div class="experience-overlay">
+                    <h3>Private Dining</h3>
+                    <p>Intimate gatherings in our exclusive wine cellar room</p>
+                </div>
+            </div>
+            <div class="experience-card">
+                <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=500" alt="Wine collection">
+                <div class="experience-overlay">
+                    <h3>Curated Wines</h3>
+                    <p>Over 300 labels from Kenya and around the world</p>
+                </div>
+            </div>
+            <div class="experience-card">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500" alt="Chef's table">
+                <div class="experience-overlay">
+                    <h3>Chef's Table</h3>
+                    <p>An exclusive journey with Chef Amani himself</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <div class="gallery-header">
+            <span class="section-label">Gallery</span>
+            <h2>Visual Journey</h2>
+        </div>
+        <div class="gallery-grid" id="gallery-grid"></div>
+    </section>
+
+    <section id="reservations" class="reservations-section">
+        <div class="reservations-container">
+            <div class="reservations-info">
+                <span class="section-label">Reservations</span>
+                <h2>Join Us</h2>
+                <div class="info-block">
+                    <h4>Hours</h4>
+                    <p>Tuesday - Saturday: 6:30 PM - 11:00 PM</p>
+                    <p>Sunday Brunch: 11:00 AM - 3:00 PM</p>
+                    <p>Monday: Closed</p>
+                </div>
+                <div class="info-block">
+                    <h4>Location</h4>
+                    <p>The Pavilion, 4th Floor</p>
+                    <p>Westlands Road, Nairobi</p>
+                    <p>Kenya</p>
+                </div>
+                <div class="info-block">
+                    <h4>Contact</h4>
+                    <p>+254 20 123 4567</p>
+                    <p>reservations@savannanairobi.co.ke</p>
+                </div>
+            </div>
+            <form class="reservation-form" id="reservation-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <select id="time" name="time" required>
+                            <option value="">Select time</option>
+                            <option value="18:30">6:30 PM</option>
+                            <option value="19:00">7:00 PM</option>
+                            <option value="19:30">7:30 PM</option>
+                            <option value="20:00">8:00 PM</option>
+                            <option value="20:30">8:30 PM</option>
+                            <option value="21:00">9:00 PM</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="guests">Guests</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">Select guests</option>
+                            <option value="2">2 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="6">6 Guests</option>
+                            <option value="8">8+ Guests</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="occasion">Occasion</label>
+                        <select id="occasion" name="occasion">
+                            <option value="">Select occasion</option>
+                            <option value="birthday">Birthday</option>
+                            <option value="anniversary">Anniversary</option>
+                            <option value="business">Business</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <label for="requests">Special Requests</label>
+                    <textarea id="requests" name="requests" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Request Reservation</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-logo">SAVANNA</div>
+            <p>Where African Heritage Meets Modern Gastronomy</p>
+            <div class="footer-social">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+            <p class="copyright">2026 Savanna Fine Dining. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
