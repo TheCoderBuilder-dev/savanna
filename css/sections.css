@@ -11,7 +11,8 @@
 /* ==================== About Section ==================== */
 .about-section {
     padding: 10rem 3rem;
-    background: var(--color-primary);
+    background: linear-gradient(rgba(26, 26, 26, 0.92), rgba(26, 26, 26, 0.92)),
+                url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920') center/cover fixed;
 }
 
 .about-grid {
@@ -105,7 +106,8 @@
 /* ==================== Menu Section ==================== */
 .menu-section {
     padding: 10rem 3rem;
-    background: var(--color-primary);
+    background: linear-gradient(rgba(26, 26, 26, 0.95), rgba(26, 26, 26, 0.95)),
+                url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920') center/cover fixed;
 }
 
 .menu-header {
@@ -186,7 +188,8 @@
 /* ==================== Experience Section ==================== */
 .experience-section {
     padding: 10rem 3rem;
-    background: #0f0f0f;
+    background: linear-gradient(rgba(15, 15, 15, 0.9), rgba(15, 15, 15, 0.9)),
+                url('https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1920') center/cover fixed;
 }
 
 .experience-header {
